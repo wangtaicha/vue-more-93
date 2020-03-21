@@ -1,14 +1,18 @@
 {
-  "name": "ui-learn-93",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ui-xqg-93",
+  "version": "0.0.4",
+  "private": false,
+  "main": "lib/ui-xqg-93.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "b": "vue-cli-service build --target lib --name ui-xqg-93 --dest lib ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "demo_vue_ui": "^0.1.0",
+    "semantic-ui-css": "^2.4.1",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5"
   },
